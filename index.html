@@ -1,352 +1,329 @@
-<!-- HELLO
--
-DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
-Created by Anil Seervi.
--
-GitHub repo: https://github.com/AnilSeervi/DevFolio
-README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
--
-Have fun creating your portfolio on this template!!! -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Title: add your Portfolio websites's title here -->
-    <title>[Your name here] | Developer</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+  <!-- Title: add your Portfolio websites's title here -->
+  <title>Ang (Annie) Li | Developer</title>
 
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+  <meta name="keywords" content="Javascript, Java, SQL, Web Developer, Data Scientist" />
 
-    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Ang (Annie) Li | Developer" />
 
-    <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#36d1dc" />
+  <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+  <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://devfolio.js.org/" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="[Your name here] | Developer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Made using DevFolio Template" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+  <!-- Add your primary-theme color for the value of content -->
+  <meta name="theme-color" content="#36d1dc" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <!-- Fill content with the URL of this portfolio you'll host -->
+  <meta property="og:url" content="https://devfolio.js.org/" />
+  <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+  <meta property="og:title" content="[Your name here] | Developer" />
+  <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+  <meta property="og:description" content="Made using DevFolio Template" />
+  <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
       so that a thumbnail image of your portfolio is shown while shared on other platform -->
-    <meta
-      property="og:image"
-      content="https://devfolio.js.org/assets/devfolio.png"
-    />
+  <meta property="og:image" content="https://devfolio.js.org/assets/devfolio.png" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://devfolio.js.org" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="[Your name here] | Developer" />
-    <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Made using DevFolio Template"
-    />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="https://anilseervi.vercel.app/assets/devfolio.png"
-    />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <!-- Again fill content attr with the URL of this portfolio you'll host -->
+  <meta property="twitter:url" content="https://devfolio.js.org" />
+  <!-- Recommended to use the same text used within <title> element -->
+  <meta property="twitter:title" content="[Your name here] | Developer" />
+  <!-- short description that shows up while your portfolio is shared -->
+  <meta property="twitter:description" content="Made using DevFolio Template" />
+  <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+  <meta property="twitter:image" content="https://anilseervi.vercel.app/assets/devfolio.png" />
 
-    <!-- link tags -->
-    <link rel="stylesheet" href="./css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="./javascript/scrollreveal.min.js"></script>
-    <script
-      defer
-      type="text/javascript"
-      src="./javascript/scrollveal.js"
-    ></script>
+  <!-- link tags -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="./javascript/scrollreveal.min.js"></script>
+  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
 
-    <!-- Remove Google Analytics once you have your portfolio website set-up -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <!-- Remove Google Analytics once you have your portfolio website set-up -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-      gtag("config", "UA-122228201-4");
-    </script>
-    <!-- End of Google Analytics -->
-  </head>
-  <body>
-    <!-- Hero Section -->
-    <div id="hero">
-      <section class="container">
-        <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Your Name</span>
-          <br />
-          I'm the Unknown Developer.
-        </h1>
-        <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
-        </p>
-      </section>
-      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-        <div class="scroll-down"></div
-      ></a>
+    gtag("config", "UA-122228201-4");
+  </script>
+  <!-- End of Google Analytics -->
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <div id="hero">
+    <section class="container">
+      <h1 class="hero-title">
+        Hi, my name is <span class="text-color-main name">Ang (Annie) Li</span>
+        <br />
+        <br />
+        <br />
+        Certified Full Stack Web Developer with 5+ years SQL Data Analysis experience.
+      </h1>
+      <p class="hero-cta">
+        <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+      </p>
+    </section>
+    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row about-wrapper">
+        <div class="about-wrapper__image">
+          <img class="img-fluid"
+            src="https://media.licdn.com/dms/image/D4E03AQHwvDPopmQyvg/profile-displayphoto-shrink_800_800/0/1666498766047?e=1678924800&v=beta&t=0m2BT5pPS47xC4BiSdHnR5T1dWsO0gVNZcTgP-LHPY8"
+            alt="Profile Image" />
+        </div>
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+          <ul>
+            <li>5+ years Data Analysis and Web page development experiences.</li>
+            <li>8+ years professional working experiences, with 2+ years certificated Montessori Teaching experiences.
+            </li>
+            <li>Professional Full Stack Web Development projects experiences.</li>
+            <li>University of Utah Computer Science, BootCamp Full Stack Web development education.</li>
+            <li>Top 2 Chinese College education, with Economics, Public Health, Medical English majors.</li>
+          </ul>
+          </p>
+          <span class="about-wrapper__cta">
+            <a href="https://www.linkedin.com/in/annie-l-535618254/" class="cta-btn cta-btn--resume">LinkedIn</a>
+          </span>
+        </div>
+      </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="row about-wrapper">
-          <div class="about-wrapper__image">
-            <img
-              class="img-fluid"
-              src="./assets/profile.png"
-              alt="Profile Image"
-            />
-          </div>
-          <div class="about-wrapper__info">
-            <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
+  <!--Projects Section-->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">TwyTTer</h3>
+            <p class="project-wrapper__text-info">
+              This is a full-stack application using the following technologies:
+            <ul>
+              <li>Node.js and Express.js to create a RESTful API</li>
+              <li>Handlebars.js as the template engine.</li>
+              <li>MySQL and the Sequelize ORM for the database.</li>
+              <li>Passport for authentication</li>
+              <li>Heroku</li>
+            </ul>
             </p>
-            <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
-            </p>
-            <span class="about-wrapper__cta">
-              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
-            </span>
+            <div class="project-wrapper__text-btns">
+              <a href="https://twytter-redo.herokuapp.com/" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="https://github.com/annielawang/twytter" target="_blank" class="cta-btn text-color-main">Source
+                Code</a>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
 
-    <!--Projects Section-->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img
+                  src="https://user-images.githubusercontent.com/112277445/211238201-cced3cd3-fcc4-4ac0-963f-9266d6a0a982.png"
+                  class="img-fluid" alt="Project Image" />
               </div>
-            </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
 
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Tech Blog</h3>
+            <p class="project-wrapper__text-info">
+              Most developers spend time reading and writing about technical concepts, recent advancements, and new
+              technologies. So I want to build a CMS-style blog site where developers can publish their blog posts and
+              comment on other
+              developers’ posts.
+            <ul>
+              <li>Node.js, Express.js, RESTful API</li>
+              <li>Handlebars.js, HTML5, CSS3, Bootstrap</li>
+              <li>MySQL, Sequelize, ORM</li>
+              <li>Passport, Session, Local Storage</li>
+              <li>Heroku</li>
+            </ul>
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://challenge14-mvc-tech-blog.herokuapp.com/" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="https://github.com/annielawang/14-MVC-Tech_Blog" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="https://raw.githubusercontent.com/annielawang/14-MVC-Tech_Blog/main/mvc-bootstrap.png"
+                  class="img-fluid" alt="Project Image" />
               </div>
-            </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
 
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Pokedex</h3>
+            <p class="project-wrapper__text-info">
+              Use this tool to find valuable information about the pokemon you search up. Simply enter the pokemon name
+              you wish to
+              find and press search.
+              The pokemon card will pop up with Vital stats, special ability, element type, and a youtube search of the
+              pokemon.
+              The page also renders your previous search inquiries as clickable buttons to the side.
+            <ul>
+              <li>HTML5, CSS3, Bootstrap</li>
+              <li>Ajax, JQuery</li>
+              <li>Local Storage / Session Storage</li>
+            </ul>
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://annielawang.github.io/pokedex/" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="https://github.com/annielawang/pokedex" target="_blank" class="cta-btn text-color-main">Source
+                Code</a>
             </div>
-          </article>
-          <!-- /END Project -->
+          </div>
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="https://raw.githubusercontent.com/annielawang/pokedex/develop/assets/img/screenshot.png"
+                  class="img-fluid" alt="Project Image" />
               </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Employee Tracker</h3>
+            <p class="project-wrapper__text-info">
+              This is a command-line application for managing a company's employee database, using Node.js, Inquirer,
+              and MySQL.
+            <ul>
+              <li>Node.js, Inquirer</li>
+              <li>MySQL, SQL</li>
+              <li>ORM</li>
+            </ul>
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://github.com/annielawang/12-SQL-Employee-Tracker/blob/main/README.md" target="_blank"
+                rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="https://github.com/annielawang/12-SQL-Employee-Tracker" target="_blank"
+                class="cta-btn text-color-main">Source
+                Code</a>
             </div>
+          </div>
 
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-        </div>
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="https://raw.githubusercontent.com/annielawang/12-SQL-Employee-Tracker/main/cli.png"
+                  class="img-fluid" alt="Project Image" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
       </div>
-    </section>
-    <!-- End Projects Section -->
+    </div>
+  </section>
+  <!-- End Projects Section -->
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
-        </div>
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">annielawang@gmail.com</p>
+        <a href="mailTo: annielawang@gmail.com" class="cta-btn cta-btn--resume">Send Email</a>
       </div>
-    </section>
-    <!-- END Contact Section -->
+    </div>
+  </section>
+  <!-- END Contact Section -->
 
-    <!-- Footer Section -->
-    <footer class="footer">
-      <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="back-to-top" aria-label="go back to top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <!-- <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+          <i class="fa fa-twitter"></i>
         </a>
-        <div class="social-links">
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="linkedin"
-          >
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa fa-github"></i>
-          </a>
-        </div>
-        <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
-          <a
-            href="https://github.com/AnilSeervi"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Anil Seervi</a
-          >. <br />Made with &hearts;
-        </p>
+        <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="codepen">
+          <i class="fa fa-codepen"></i>
+        </a> -->
+        <a href="https://www.linkedin.com/in/annie-l-535618254/" target="_blank" rel="noopener noreferrer"
+          aria-label="linkedin">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/annielawang" target="_blank" rel="noopener noreferrer" aria-label="github">
+          <i class="fa fa-github"></i>
+        </a>
       </div>
-    </footer>
-    <!-- END Footer Section -->
+      <hr />
+    </div>
+    <p class="footer__text">
+      &copy; <span id="year"></span>
+      <br>
+      <!-- <a href="https://github.com/annielawang" target="_blank" rel="noopener noreferrer">
+        Annie's Github </a>
+      <br /> -->
+      Made with &hearts;
+    </p>
+  </footer>
+  <!-- END Footer Section -->
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-    <script src="./javascript/vanilla-tilt.min.js"></script>
-    <script type="text/javascript" src="./javascript/valtilt.js"></script>
-  </body>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="./javascript/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="./javascript/valtilt.js"></script>
+</body>
+
 </html>
